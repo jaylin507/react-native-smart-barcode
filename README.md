@@ -1,3 +1,16 @@
+# flx
+
+
+PropTypes 引用方式改为
+
+`const PropTypes = require('prop-types')`
+
+为支持react-native 0.52 以上版本
+
+移除RCTCapturePackage.java的@Override
+
+
+
 # react-native-smart-barcode
 
 [![npm](https://img.shields.io/npm/v/react-native-smart-barcode.svg)](https://www.npmjs.com/package/react-native-smart-barcode)

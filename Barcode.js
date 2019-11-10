@@ -7,7 +7,6 @@
 
 
 import React, {
-    PropTypes,
     Component,
 } from 'react'
 import {
@@ -20,7 +19,7 @@ import {
 
 const BarcodeManager = Platform.OS == 'ios' ? NativeModules.Barcode : NativeModules.CaptureModule
 
-
+const PropTypes = require('prop-types')
 export default class Barcode extends Component {
 
     static defaultProps = {
